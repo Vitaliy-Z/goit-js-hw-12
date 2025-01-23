@@ -3,7 +3,7 @@
 }
 .vite-promo-thumb {
   position: relative;
-  max-width: 320px;
+  max-width: 200px;
   margin: 0 auto;
 }
 .vite-promo-thumb::before {
@@ -31,11 +31,6 @@
   -webkit-background-clip: text;
   background-clip: text;
 }
-@media only screen and (min-width: 768px) {
-  .main-title-gradient {
-    font-size: 3em;
-  }
-}
 .main-title-link {
   position: relative;
   letter-spacing: 0.04em;
@@ -61,7 +56,7 @@
 .vite-promo .text {
   margin-bottom: 1.5rem;
 
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.14;
 
@@ -69,7 +64,7 @@
 }
 
 .vite-promo .tagline {
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.5;
   color: rgba(60, 60, 60, 0.7);
 }
