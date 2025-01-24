@@ -1,6 +1,5 @@
 .gallery {
   margin: 0;
-
   padding: 20px;
   list-style: none;
   display: flex;
@@ -12,7 +11,7 @@
   border-radius: 10px;
 }
 .gallery-item {
-  width: calc((100% - 24px * 2) / 3);
+  width: 100%;
   overflow: hidden;
   border: 1px solid #888;
   border-radius: 5px;
@@ -62,4 +61,17 @@
 .load-more-btn:hover,
 .load-more-btn:focus {
   background-color: #6c8cff;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .gallery-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1200px) {
+  .gallery-item {
+    width: calc((100% - 24px * 2) / 3);
+  }
 }
